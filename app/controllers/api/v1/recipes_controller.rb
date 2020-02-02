@@ -5,9 +5,9 @@ render json: @recipes
 end
 
 def create
-    recipe = Recipe.create!(recipe_params)
-    if recipe
-      render json: recipe
+    @recipe = Recipe.create!(recipe_params)
+    if @recipe
+      render json: @recipe
     else
       render json: @recipe.errors
     end
