@@ -1,4 +1,4 @@
-# Portfolio
+# Recipe app
 
 > This is a Rails and React recipe app built from a tutorial by [Chuks Opia](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-ruby-on-rails-project-with-a-react-frontend)
 
